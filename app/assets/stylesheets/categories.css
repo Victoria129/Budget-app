@@ -32,7 +32,7 @@
   background-color: #fff;
 }
 
-.cat-p a {
+.cart-p a {
   background-color: #5fb523;
   width: 92%;
 }
@@ -51,7 +51,7 @@
   height: 100px;
 }
 
-.cat-p {
+.cart-p {
   text-align: center;
 }
 
@@ -61,7 +61,7 @@
   margin-top: -17px;
 }
 
-.cat-name input {
+.cart-name input {
   height: 40px;
   width: 100%;
   border: none;
@@ -69,7 +69,7 @@
   outline: none;
 }
 
-.cat-icon input {
+.cart-icon input {
   height: 40px;
   width: 100%;
   border: none;
@@ -77,11 +77,11 @@
   outline: none;
 }
 
-.cat-h2 {
+.cart-h2 {
   color: #434b54;
 }
 
-.cat-sub input {
+.cart-sub input {
   width: 100%;
   margin-top: 30%;
   height: 30px;

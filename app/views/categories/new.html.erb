@@ -1,17 +1,17 @@
 <%= render partial: 'layouts/header' %>
 
-<h2 class="cat-h2">Create a New Category</h2>
+<h2 class="cart-h2">Create a New Category</h2>
 
 <%= form_with(model: @category, url: categories_path, local: true) do |form| %>
-  <div class="cat-name">
+  <div class="cart-name">
     <%= form.text_field :name, placeholder: 'Category Name' %>
   </div>
 
-  <div class="cat-icon">
+  <div class="cart-icon">
     <%= form.text_field :icon, placeholder: 'Icon' %>
   </div>
 
-  <div class="cat-sub">
+  <div class="cart-sub">
     <%= form.submit "Save Category" %>
   </div>
 <% end %>

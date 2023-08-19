@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_08_19_132226) do
+ActiveRecord::Schema[7.0].define(version: 2023_08_19_163933) do
   create_table "categories", force: :cascade do |t|
     t.string "name"
     t.string "icon"
@@ -26,7 +26,9 @@ ActiveRecord::Schema[7.0].define(version: 2023_08_19_132226) do
     t.integer "category_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "user_id", null: false
     t.index ["category_id"], name: "index_transactions_on_category_id"
+    t.index ["user_id"], name: "index_transactions_on_user_id"
   end
 
   create_table "users", force: :cascade do |t|
@@ -39,4 +41,5 @@ ActiveRecord::Schema[7.0].define(version: 2023_08_19_132226) do
 
   add_foreign_key "categories", "users"
   add_foreign_key "transactions", "categories"
+  add_foreign_key "transactions", "users"
 end
