@@ -61,7 +61,7 @@ Discover the power of effective financial management with **My Budget App**, a c
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo](https://ror-budget-application.onrender.com)
+- [Live Demo](https://spendwise-spj5.onrender.com/)
 
 <!-- Presentation -->
 
