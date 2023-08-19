@@ -61,13 +61,13 @@ Discover the power of effective financial management with **My Budget App**, a c
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo]()
+- [Live Demo](https://ror-budget-application.onrender.com)
 
 <!-- Presentation -->
 
 ## Video Presentation <a name="video"></a>
 
-- [App Video Presentation]()
+- [App Video Presentation](https://drive.google.com/file/d/1dK_LhlBe0vSXK9vstFmvWLB6NHt652Jn/view?usp=sharing)
 
 <!-- GETTING STARTED -->
 
