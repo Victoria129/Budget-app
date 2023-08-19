@@ -1,6 +1,6 @@
 databases:
   - name: mysite
-    databaseName: db/development.sqlite3
+    databaseName: my_budget_app
     user: postgres
 
 services:
