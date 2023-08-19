@@ -14,7 +14,7 @@
  *= require_self
  */
 
- .big_div {
+.big_div {
   display: flex;
   flex-direction: column;
   width: 100%;
