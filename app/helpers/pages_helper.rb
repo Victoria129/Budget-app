@@ -1,4 +1,4 @@
 #rubocop:disable all
 
-module ApplicationHelper
+module PagesHelper
 end

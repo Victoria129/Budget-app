@@ -14,7 +14,7 @@ Devise.setup do |config|
   # confirmation, reset password and unlock tokens in the database.
   # Devise will use the `secret_key_base` as its `secret_key`
   # by default. You can change it below and use your own secret key.
-  # config.secret_key = '154e278e19a633a077db2b241a659cee9a4c6263f175c50def675aa8208afa300ee0ec4f9ab358a80b1bb0876d16c1052488dd1c116891b160b5a36cfdb43462'
+  # config.secret_key = '5578543c6fd3bb976ee91e1736ddfd75ed21144809c109b351e37ce8ccd1f5d23b65c8bec7b5c9c3b313cb3c0fbda0d1adcb74bfd818f56a62b89ddda1341be9'
 
   # ==> Controller configuration
   # Configure the parent class to the devise controllers.
@@ -126,7 +126,7 @@ Devise.setup do |config|
   config.stretches = Rails.env.test? ? 1 : 12
 
   # Set up a pepper to generate the hashed password.
-  # config.pepper = '4e9671cbb10c7f5014e68fe7611ad8067ccc39fc43649c0b4ca7dc2254ea81f315ceb3b8d2a2503fbf7dce73abccf4043928477981390521004c51af90d547dc'
+  # config.pepper = 'b069f436b9547f2ba646a2bc4e5ceaab70f95340fbb9664ad41c134b7ca64df7cc8be2b461f8433b97b08f1e72decf1d5be347228330ea7c7193264fa25ecb0a'
 
   # Send a notification to the original email when the user's email is changed.
   # config.send_email_changed_notification = false
@@ -175,6 +175,8 @@ Devise.setup do |config|
   # Options to be passed to the created cookie. For instance, you can set
   # secure: true in order to force SSL only cookies.
   # config.rememberable_options = {}
+  
+  config.authentication_keys = [:email]
 
   # ==> Configuration for :validatable
   # Range for password length.
